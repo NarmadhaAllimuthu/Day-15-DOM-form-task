@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  <div class="box">
+    <div class="container">
+      <h1 id="title">Form</h1>
+      <p id="description">Mandetory to complete this form!!</p>
+      <form id="form">
+        <div class="formgroup">
+          <div class="form-row"> 
+            <div class="form-group col-md-6"> 
+              <label for="firstname">First Name</label>
+              <input id="first-name"type="text"  class="form-control" placeholder="Your firstname.." required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastname">Last Name</label>
+              <input  id="last-name"type="text" class="form-control" placeholder="Your last name.." required>
+            </div>
+          </div>
+          <div class="form-row">
+            
+            <div class="form-group" > 
+              <label for="address">Address</label>   
+            <textarea type="text" id="address" class="form-control" name="address" placeholder="Your address.."></textarea>
+                  </div>
+                </div>
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label for="pincode">Pincode</label>
+              <input type="text" id="pincode"  placeholder="Your pincode.." required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-2">
+              <label for="gender">Gender</label>
+
+              <input type="radio" id="gender" name="gender" > Female <br>
+              <input type="radio" id="gender" name="gender" value="male"> Male<br>
+              <input type="radio" id="gender" name="gender" value="others" > Others
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="food">Choice of Food</label>
+            <select id="food" class="form-control" multiple size="2">
+              <option value="pizza">Pizza</option>
+              <option value="fruits">Fruits</option>
+              <option value="non-veg">Non - Veg</option>
+              <option value="only-veg">Only Veg</option>
+              <option value="sweets-and-snacks">Sweets and snacks</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-3"> 
+              <label for="state">State</label>
+              <input type="text" id="state" class="form-control" placeholder="Your state..">
+              <label for="country">Country</label>
+              <input type="text" id="country" class="form-control" placeholder="Your country..">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <table class="table" id="dataTable">
+        <thead>
+          <tr>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Pincode</th> 
+            <th scope="col">Gender</th>
+            <th scope="col">Food</th>
+            <th scope="col">State</th>
+            <th scope="col">Country</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
